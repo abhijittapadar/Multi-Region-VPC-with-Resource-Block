@@ -14,3 +14,6 @@ output "subnet-us_east_1" {
 output "subnet-ap_south_1" {
   value = aws_subnet.Public-ap-south-1.id
 }
+output "subnet_us-west-2"{
+  value = aws_subnet.public-us-west-2.id
+}
