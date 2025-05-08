@@ -1,3 +1,4 @@
+/*
 resource "aws_subnet" "Public-us-east-1" {
   provider = aws.us-east-1
   depends_on = [ aws_vpc.primary_us_east_1 ]
@@ -25,3 +26,4 @@ resource "aws_subnet" "Public-ap-south-1" {
     Name = "Public-Subnet"
   }
 }
+*/
